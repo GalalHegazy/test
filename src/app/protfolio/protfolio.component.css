@@ -1,0 +1,41 @@
+section{
+        padding-top: 100px;  
+}
+h1,.line{
+    color: #2c3e50;  
+}
+.line-1{
+    width: 100px;
+    height: 4px;
+    background-color: #2c3e50;
+}
+.prto-icon{
+    width: 100%;
+    height: 100%;
+    background-color:hsla(168, 76%, 42%, 0.87) ;
+    opacity: 0;
+    transition: all 1s;
+}
+i{
+    font-size: 100px;
+}
+.prto-img:hover .prto-icon{
+    opacity: 1;
+    cursor: pointer;
+}
+.img-box{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 255, 0.336);
+    z-index: 77777;
+}
+.img-light{
+    height: 50vh;
+    width: 40%;
+    background-color: black;
+    border-radius: 15px; 
+}
+

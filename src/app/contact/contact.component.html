@@ -1,0 +1,39 @@
+<section>
+    <h1 class="fw-bold text-center">CONATCT SECTION</h1>
+
+    <div class="line my-3 d-flex justify-content-center align-items-center ">
+        <div class="line-1"></div>
+        <i class="fa-solid fa-star fs-4 mx-3"></i>
+        <div class="line-1"></div>
+    </div>
+    <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-9 g-2">
+            <form > 
+
+                <label for="userName" class="position-relative top-0 " [class._top]="!userName.length">userName :</label>
+
+                <input class="form-input rounded-2 w-100 my-2 position-relative" name="userName" [(ngModel)]="userName" type="text" placeholder="userName">
+
+                <label for="userAge" class="position-relative top-0" [class._top]="!userAge.length">userAge :</label> 
+
+                <input class="form-input rounded-2 w-100 my-2 position-relative" [(ngModel)]="userAge"  name="userAge" type="text" placeholder="userAge">
+
+                <label for="userEmail" class="position-relative top-0" [class._top]="!userEmail.length">userEmail :</label>
+                <input class="form-input rounded-2 w-100 my-2 position-relative" [(ngModel)]="userEmail"  name="userEmail" type="text" placeholder="userEmail">
+
+                <label for="userPassword" class="position-relative top-0" [class._top]="!userPassword.length" >userPassword :</label>
+                <input class="form-input rounded-2 w-100 my-2 position-relative" [(ngModel)]="userPassword"  name="userPassword" type="text" placeholder="userPassword">
+                
+                <div class=" my-4">
+                    <button type="submit" class=" fbtn rounded-2"> send Message </button>
+                </div>
+                
+            </form>
+    
+        </div>
+    </div>
+
+    </div>
+    
+</section>
